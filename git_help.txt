@@ -1,0 +1,88 @@
+💡 Git 快捷操作小抄（零基础版）
+1️⃣ 保存文件
+
+在 VS Code 里修改文件后 Ctrl + S 保存到本地硬盘
+
+这是最基础的一步，Git 只管文件内容，不管你在编辑器里怎么改
+
+2️⃣ 查看修改状态
+git status
+
+
+查看哪些文件被修改或新增
+
+红色 → 修改未暂存
+
+绿色 → 已暂存准备提交
+
+3️⃣ 暂存修改（add）
+git add .
+
+
+. 表示把所有修改都暂存
+
+也可以只暂存部分文件：
+
+git add 文件名
+
+
+作用：告诉 Git “我想把这些修改保存到下一次提交里”
+
+4️⃣ 提交修改（commit）
+git commit -m "写一句说明，比如：更新学习笔记"
+
+
+作用：生成快照，把暂存区的修改归档到 Git 历史
+
+建议 commit 信息简短、清楚说明修改内容
+
+示例：
+
+git commit -m "修正RK3588学习笔记错误"
+
+5️⃣ 上传到 GitHub（push）
+git push origin main
+
+
+将本地 commit 上传到远程仓库
+
+第一次 push 会要求输入 GitHub 用户名 + Token
+
+成功后刷新 GitHub 网页就能看到更新
+
+6️⃣ 小技巧
+
+每次修改前拉取最新远程更改（避免冲突）：
+
+git pull origin main
+
+
+只想上传部分文件：
+
+git add 文件名
+git commit -m "说明"
+git push origin main
+
+
+查看提交历史：
+
+git log
+
+
+查看修改内容差异：
+
+git diff
+
+🔹 简单记忆顺序
+修改文件 → git add → git commit → git push
+
+
+就像流水线：
+
+编辑
+
+暂存
+
+归档
+
+上传
