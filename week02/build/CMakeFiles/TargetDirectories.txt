@@ -1,0 +1,3 @@
+/mnt/hgfs/rk3588_learning/week02/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/rk3588_learning/week02/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/rk3588_learning/week02/build/CMakeFiles/opencv_test.dir

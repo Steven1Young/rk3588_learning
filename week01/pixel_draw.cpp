@@ -21,7 +21,9 @@ int main() {
     // 2. 画一个白色的实心长方形（y坐标40到60，坐标30到70）
     for (int y = 40; y < 60; y++) {
         for (int x = 30; x < 70; x++) {
-           image[x * width + y] = 255 ;
+           
+           image[y * width + x] = 255 ;
+           //image[x * width + y] = 255 ;翻转图像
         }
     }
 
