@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # 定义项目名称和语言
-project(RK3588_Learning_Week02 LANGUAGES CXX)
+project(RK3588_Week03_Vision LANGUAGES CXX)
 
 # -----------------------------------------------------------
 # 【重点 1】寻找 OpenCV 库
